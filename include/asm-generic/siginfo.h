@@ -17,6 +17,8 @@
 struct siginfo;
 void do_schedule_next_timer(struct siginfo *info);
 
+/*
 extern int copy_siginfo_to_user(struct siginfo __user *to, const struct siginfo *from);
+*/
 
 #endif
