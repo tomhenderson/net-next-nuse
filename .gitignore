@@ -74,6 +74,11 @@ include/config
 include/generated
 arch/*/include/generated
 
+# Other generated files
+scripts/kconfig/lexer.lex.c
+scripts/kconfig/parser.tab.c
+scripts/kconfig/parser.tab.h
+
 # stgit generated dirs
 patches-*
 
